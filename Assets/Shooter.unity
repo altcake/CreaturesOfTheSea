@@ -1526,7 +1526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ee53c4b99825a44a983a1108ea938d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 10
+  hp: 1
   isEnemy: 0
 --- !u!114 &1735629738
 MonoBehaviour:
