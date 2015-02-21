@@ -38,6 +38,7 @@ public class EnemyScript : MonoBehaviour {
 				// Auto-Fire
 				if (weapon != null && weapon.CanAttack) {
 					weapon.Attack (true);
+					SoundEffectsHelper.Instance.MakeEnemyShotSound();
 				}
 			}
 			
