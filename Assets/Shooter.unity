@@ -73,7 +73,6 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
-    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &47904489
 GameObject:
@@ -258,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc7b270ffd3735e43a44cdd307aff93d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 10, y: 10}
+  speed: {x: 5, y: 5}
   direction: {x: -1, y: 0}
 --- !u!114 &154256043
 MonoBehaviour:
@@ -486,7 +485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 446056, guid: 1e3067ae40c2b92468ba5abf4bc23db8, type: 2}
-  shootingRate: .25
+  shootingRate: .100000001
 --- !u!1 &479400249
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 446056, guid: 1e3067ae40c2b92468ba5abf4bc23db8, type: 2}
-  shootingRate: .25
+  shootingRate: .100000001
 --- !u!1 &624050850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,7 +1150,7 @@ Transform:
   m_GameObject: {fileID: 1141188356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 1396408782}
   m_RootOrder: 1
@@ -1332,6 +1331,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 21289788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300004, guid: b5dc4ca355a7a4a4bbd9b95f9fb32cf6,
+        type: 3}
+    - target: {fileID: 489788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 489788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 489788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
   m_RootGameObject: {fileID: 1735629730}
@@ -1411,7 +1435,7 @@ Transform:
   m_GameObject: {fileID: 1735629730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.46000004, y: -.159999996, z: 0}
-  m_LocalScale: {x: .200000003, y: .200000003, z: 1}
+  m_LocalScale: {x: 2, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 291815567}
   m_RootOrder: 0
@@ -1425,7 +1449,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: 10, y: 10}
+  m_Size: {x: 3, y: 3}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1735629733
 SpriteRenderer:
@@ -1448,7 +1472,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8c1505e07dfba2847951035f55993a6b, type: 3}
+  m_Sprite: {fileID: 21300004, guid: b5dc4ca355a7a4a4bbd9b95f9fb32cf6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!50 &1735629734
 Rigidbody2D:
@@ -1476,7 +1500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f3db6fb2dc23f4cada9155981319d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 20, y: 20}
+  speed: {x: 25, y: 25}
 --- !u!114 &1735629736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1501,7 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ee53c4b99825a44a983a1108ea938d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1
+  hp: 10
   isEnemy: 0
 --- !u!114 &1735629738
 MonoBehaviour:
@@ -1711,7 +1735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc7b270ffd3735e43a44cdd307aff93d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 10, y: 10}
+  speed: {x: 5, y: 5}
   direction: {x: -1, y: 0}
 --- !u!50 &1800254726
 Rigidbody2D:
@@ -1762,7 +1786,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6b50c917550ac0143af0191ff38225b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d49f5af8c3dc2747988a607e178d6fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1809738597
 Prefab:
@@ -2132,7 +2156,7 @@ Transform:
   m_GameObject: {fileID: 2010684939}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 890694456}
   m_RootOrder: 1
@@ -2197,6 +2221,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 21278382, guid: 7ad26eff938e2a24ba15ac4fc7646051, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d49f5af8c3dc2747988a607e178d6fa,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ad26eff938e2a24ba15ac4fc7646051, type: 2}
   m_RootGameObject: {fileID: 1800254721}
