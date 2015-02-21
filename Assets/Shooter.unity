@@ -73,7 +73,6 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
-    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &154256037
 GameObject:
@@ -251,7 +250,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 291815567}
-  - 114: {fileID: 291815568}
   m_Layer: 0
   m_Name: 3 - Foreground
   m_TagString: Untagged
@@ -277,21 +275,6 @@ Transform:
   - {fileID: 888580576}
   m_Father: {fileID: 1396408782}
   m_RootOrder: 3
---- !u!114 &291815568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 291815566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5bf24429a1028849aa566f1a5951eb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 1, y: 1}
-  direction: {x: 1, y: 0}
-  isLinkedToCamera: 1
-  isLooping: 0
 --- !u!1 &378613094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,6 +1279,7 @@ GameObject:
   - 114: {fileID: 1735629735}
   - 114: {fileID: 1735629736}
   - 114: {fileID: 1735629737}
+  - 114: {fileID: 1735629738}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1376,7 +1360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f3db6fb2dc23f4cada9155981319d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 50, y: 50}
+  speed: {x: 20, y: 20}
 --- !u!114 &1735629736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1403,6 +1387,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1
   isEnemy: 0
+--- !u!114 &1735629738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735629730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bf24429a1028849aa566f1a5951eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 3, y: 3}
+  direction: {x: 1, y: 0}
+  isLinkedToCamera: 0
+  isLooping: 0
 --- !u!1 &1770323864
 GameObject:
   m_ObjectHideFlags: 0
