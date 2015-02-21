@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MoveScript : MonoBehaviour {
+public class MoveScript : MonoBehaviour
+{
 
 
 	public Vector2 speed = new Vector2(10, 10);
