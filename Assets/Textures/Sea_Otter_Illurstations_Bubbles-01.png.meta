@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 7551e4bafd6d25b419b8fa40f9af8178
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sea_Otter_Illurstations_Bubbles-01_0
+    21300002: Sea_Otter_Illurstations_Bubbles-01_1
+    21300004: Sea_Otter_Illurstations_Bubbles-01_2
+    21300006: Sea_Otter_Illurstations_Bubbles-01_3
+    21300008: Sea_Otter_Illurstations_Bubbles-01_4
+    21300010: Sea_Otter_Illurstations_Bubbles-01_5
+    21300012: Sea_Otter_Illurstations_Bubbles-01_6
+    21300014: Sea_Otter_Illurstations_Bubbles-01_7
+    21300016: Sea_Otter_Illurstations_Bubbles-01_8
+    21300018: Sea_Otter_Illurstations_Bubbles-01_9
+    21300020: Sea_Otter_Illurstations_Bubbles-01_10
+    21300022: Sea_Otter_Illurstations_Bubbles-01_11
+    21300024: Sea_Otter_Illurstations_Bubbles-01_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sea_Otter_Illurstations_Bubbles-01_0
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 3110
+        width: 174
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_1
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 3100
+        width: 169
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_2
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 3115
+        width: 169
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_3
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 3165
+        width: 170
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_4
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 3145
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 3095
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_6
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3085
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_7
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 3095
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_8
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 3036
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2986
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_10
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2976
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_11
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 2986
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_Bubbles-01_12
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 2951
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

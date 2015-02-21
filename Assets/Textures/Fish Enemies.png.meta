@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: af278a78621e244489071199150e70a2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fish Enemies_0
+    21300002: Fish Enemies_1
+    21300004: Fish Enemies_2
+    21300006: Fish Enemies_3
+    21300008: Fish Enemies_4
+    21300010: Fish Enemies_5
+    21300012: Fish Enemies_6
+    21300014: Fish Enemies_7
+    21300016: Fish Enemies_8
+    21300018: Fish Enemies_9
+    21300020: Fish Enemies_10
+    21300022: Fish Enemies_11
+    21300024: Fish Enemies_12
+    21300026: Fish Enemies_13
+    21300028: Fish Enemies_14
+    21300030: Fish Enemies_15
+    21300032: Fish Enemies_16
+    21300034: Fish Enemies_17
+    21300036: Fish Enemies_18
+    21300038: Fish Enemies_19
+    21300040: Fish Enemies_20
+    21300042: Fish Enemies_21
+    21300044: Fish Enemies_22
+    21300046: Fish Enemies_23
+    21300048: Fish Enemies_24
+    21300050: Fish Enemies_25
+    21300052: Fish Enemies_26
+    21300054: Fish Enemies_27
+    21300056: Fish Enemies_28
+    21300058: Fish Enemies_29
+    21300060: Fish Enemies_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Fish Enemies_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1525
+        width: 95
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1525
+        width: 100
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1525
+        width: 107
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_3
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1525
+        width: 100
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1412
+        width: 95
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1412
+        width: 99
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1412
+        width: 108
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_7
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1412
+        width: 100
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1249
+        width: 155
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1243
+        width: 164
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_10
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1238
+        width: 178
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_11
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1238
+        width: 177
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_12
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1249
+        width: 155
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1244
+        width: 166
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_14
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1238
+        width: 178
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_15
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1238
+        width: 176
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1086
+        width: 155
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1086
+        width: 163
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_18
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1086
+        width: 173
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_19
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1086
+        width: 163
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_20
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1088
+        width: 154
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_21
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1088
+        width: 163
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_22
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1088
+        width: 173
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_23
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1088
+        width: 163
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 766
+        width: 274
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_25
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 808
+        width: 186
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_26
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 839
+        width: 120
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 571
+        width: 220
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_28
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 571
+        width: 233
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_29
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 569
+        width: 242
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish Enemies_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 563
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
