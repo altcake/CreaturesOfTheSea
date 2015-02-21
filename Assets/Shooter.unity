@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &47904489
 GameObject:
@@ -1342,7 +1343,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 489788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 489788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
       propertyPath: m_LocalScale.z
@@ -1350,11 +1351,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 6189788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
       propertyPath: m_Size.x
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6189788, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
       propertyPath: m_Size.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0c5842c8a70995f42baa47d9fb423e89, type: 2}
@@ -1435,7 +1436,7 @@ Transform:
   m_GameObject: {fileID: 1735629730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.46000004, y: -.159999996, z: 0}
-  m_LocalScale: {x: 2, y: 3, z: 3}
+  m_LocalScale: {x: 2, y: 2, z: 3}
   m_Children: []
   m_Father: {fileID: 291815567}
   m_RootOrder: 0
@@ -1449,7 +1450,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 2, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1735629733
 SpriteRenderer:
