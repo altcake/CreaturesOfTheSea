@@ -11,7 +11,8 @@ public class MoveScript : MonoBehaviour
 
 	private Vector2 movement;
 	
-	void Update () {
+	void Update ()
+	{
 		movement = new Vector2 (speed.x * direction.x, speed.y * direction.y);
 
 	}
