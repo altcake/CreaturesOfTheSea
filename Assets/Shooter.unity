@@ -73,7 +73,6 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
-    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &154256037
 GameObject:
@@ -844,6 +843,7 @@ GameObject:
   - 61: {fileID: 1735629732}
   - 50: {fileID: 1735629734}
   - 114: {fileID: 1735629735}
+  - 114: {fileID: 1735629736}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -925,6 +925,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 50, y: 50}
+--- !u!114 &1735629736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735629730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc62af6b1f16f9d479f79b7d0c15489c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotPrefab: {fileID: 498716, guid: 2ff47a513b7ef9e4b8f9cd88fae92dc2, type: 2}
+  shootingRate: .25
 --- !u!1001 &1809738597
 Prefab:
   m_ObjectHideFlags: 0
