@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
 public class EnemyScript : MonoBehaviour {
-
 	private bool hasSpawn;
 	private MoveScript moveScript;
 	private WeaponScript[] weapons;
@@ -9,16 +8,12 @@ public class EnemyScript : MonoBehaviour {
 	void Awake() {
 		// Retrieve the weapon only once.
 		weapons = GetComponentsInChildren<WeaponScript>();
-
 		moveScript = GetComponent<MoveScript> ();
 	}
 
-	void Start()
-	{
+	void Start() {
 		hasSpawn = false;
-
 		collider2D.enabled = false;
-
 		moveScript.enabled = false;
 
 		foreach(WeaponScript weapon in weapons) {
@@ -26,14 +21,14 @@ public class EnemyScript : MonoBehaviour {
 		}
 	}
 
-	void Update()
-	{
+	void Update() {
 		if (hasSpawn == false) {
-			if (renderer.IsVisibleFrom (Camera.main)) {
-				Spawn ();
+			if (renderer.IsVisibleFrom(Camera.main)) {
+				Spawn();
 			}
-		} else {
-
+		} 
+        
+        else {
 			foreach (WeaponScript weapon in weapons) {
 				// Auto-Fire
 				if (weapon != null && weapon.CanAttack) {
@@ -41,23 +36,18 @@ public class EnemyScript : MonoBehaviour {
 					SoundEffectsHelper.Instance.MakeEnemyShotSound();
 				}
 			}
-			
-			if (renderer.IsVisibleFrom (Camera.main) == false) {
-				Destroy (gameObject);
+
+			if (renderer.IsVisibleFrom(Camera.main) == false && gameObject.transform.position.x < 0) {
+				Destroy(gameObject);
 			}
 		}
 	}
-	private void Spawn()
-	{
-			hasSpawn = true;
-
-			collider2D.enabled = true;
-
-			moveScript.enabled = true;
-
-			foreach (WeaponScript weapon in weapons)
-			{
-				weapon.enabled = true;
-			}
+	private void Spawn() {
+		hasSpawn = true;
+		collider2D.enabled = true;
+		moveScript.enabled = true;
+		foreach (WeaponScript weapon in weapons) {
+			weapon.enabled = true;
+		}
 	}
 }
