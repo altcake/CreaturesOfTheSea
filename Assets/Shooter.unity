@@ -606,8 +606,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 291815567}
+  m_RootOrder: 7
 --- !u!95 &222337831
 Animator:
   serializedVersion: 3
@@ -748,6 +748,7 @@ Transform:
   - {fileID: 346131368}
   - {fileID: 56782986}
   - {fileID: 705666416}
+  - {fileID: 222337830}
   m_Father: {fileID: 1396408782}
   m_RootOrder: 3
 --- !u!1 &346131365
@@ -1149,7 +1150,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 291815567}
     m_Modifications:
     - target: {fileID: 437764, guid: 441fdc0d3994f1542a37369ad146e729, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1181,7 +1182,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 437764, guid: 441fdc0d3994f1542a37369ad146e729, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 137764, guid: 441fdc0d3994f1542a37369ad146e729, type: 2}
       propertyPath: m_Name
