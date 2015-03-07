@@ -23,10 +23,9 @@ public class EnemyScript : MonoBehaviour {
 	}
 
 	void Update() {
+        // Spawn the game object if it hasn't been spawned yet.
 		if (hasSpawn == false) {
-			if (renderer.IsVisibleFrom(Camera.main)) {
-				Spawn();
-			}
+			Spawn();
 		} 
         
         else {
@@ -38,7 +37,9 @@ public class EnemyScript : MonoBehaviour {
 				}
 			}
 
-			if (renderer.IsVisibleFrom(Camera.main) == false && gameObject.transform.position.x < 0) {
+            // Only destroy the game object if it's less than -10.
+            // 0 is still within a quarter of the camera view so -10 is a safe number.
+            if (gameObject.transform.position.x < -10) {
 				Destroy(gameObject);
 			}
 		}
