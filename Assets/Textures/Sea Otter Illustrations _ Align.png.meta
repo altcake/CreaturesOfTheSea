@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 65d7691d06c368a4fa94b988411fa903
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sea Otter Illustrations _ Align_0
+    21300002: Sea Otter Illustrations _ Align_1
+    21300004: Sea Otter Illustrations _ Align_2
+    21300006: Sea Otter Illustrations _ Align_3
+    21300008: Sea Otter Illustrations _ Align_4
+    21300010: Sea Otter Illustrations _ Align_5
+    21300012: Sea Otter Illustrations _ Align_6
+    21300014: Sea Otter Illustrations _ Align_7
+    21300016: Sea Otter Illustrations _ Align_8
+    21300018: Sea Otter Illustrations _ Align_9
+    21300020: Sea Otter Illustrations _ Align_10
+    21300022: Sea Otter Illustrations _ Align_11
+    21300024: Sea Otter Illustrations _ Align_12
+    21300026: Sea Otter Illustrations _ Align_13
+    21300028: Sea Otter Illustrations _ Align_14
+    21300030: Sea Otter Illustrations _ Align_15
+    21300032: Sea Otter Illustrations _ Align_16
+    21300034: Sea Otter Illustrations _ Align_17
+    21300036: Sea Otter Illustrations _ Align_18
+    21300038: Sea Otter Illustrations _ Align_19
+    21300040: Sea Otter Illustrations _ Align_20
+    21300042: Sea Otter Illustrations _ Align_21
+    21300044: Sea Otter Illustrations _ Align_22
+    21300046: Sea Otter Illustrations _ Align_23
+    21300048: Sea Otter Illustrations _ Align_24
+    21300050: Sea Otter Illustrations _ Align_25
+    21300052: Sea Otter Illustrations _ Align_26
+    21300054: Sea Otter Illustrations _ Align_27
+    21300056: Sea Otter Illustrations _ Align_28
+    21300058: Sea Otter Illustrations _ Align_29
+    21300060: Sea Otter Illustrations _ Align_30
+    21300062: Sea Otter Illustrations _ Align_31
+    21300064: Sea Otter Illustrations _ Align_32
+    21300066: Sea Otter Illustrations _ Align_33
+    21300068: Sea Otter Illustrations _ Align_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sea Otter Illustrations _ Align_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1323
+        width: 329
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1323
+        width: 327
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_2
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1323
+        width: 331
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_3
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1323
+        width: 332
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_4
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1323
+        width: 341
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1079
+        width: 304
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_6
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1070
+        width: 281
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1075
+        width: 295
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 371
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 840
+        width: 387
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_10
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 840
+        width: 359
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 509
+        width: 327
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 505
+        width: 332
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_13
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 486
+        width: 312
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 476
+        width: 290
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_15
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 453
+        width: 253
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_16
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 453
+        width: 268
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_17
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 453
+        width: 272
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_18
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 444
+        width: 239
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_19
+      rect:
+        serializedVersion: 2
+        x: 3993
+        y: 440
+        width: 221
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_20
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 458
+        width: 198
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 81
+        width: 166
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_22
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 104
+        width: 129
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_23
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 113
+        width: 115
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_24
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 113
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_25
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 81
+        width: 157
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_26
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 58
+        width: 193
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_27
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 48
+        width: 202
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_28
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 0
+        width: 258
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_29
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 0
+        width: 258
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_30
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 12
+        width: 314
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_31
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 12
+        width: 285
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_32
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 12
+        width: 286
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_33
+      rect:
+        serializedVersion: 2
+        x: 4090
+        y: 12
+        width: 286
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea Otter Illustrations _ Align_34
+      rect:
+        serializedVersion: 2
+        x: 4436
+        y: 12
+        width: 283
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
