@@ -31,7 +31,7 @@ public class EnemyScript : MonoBehaviour {
         else {
 			foreach (WeaponScript weapon in weapons) {
 				// Auto-Fire
-				if (weapon != null && weapon.CanAttack) {
+				if (weapon != null && weapon.CanAttack && renderer.IsVisibleFrom(Camera.main)) {
 					weapon.Attack (true);
 					SoundEffectsHelper.Instance.MakeEnemyShotSound();
 				}
