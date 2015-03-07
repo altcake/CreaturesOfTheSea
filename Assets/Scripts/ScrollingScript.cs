@@ -15,7 +15,7 @@ public class ScrollingScript : MonoBehaviour {
 	private List<Transform> backgroundPart;
 
 	void Start() {
-		// For infinite backgroudn only.
+		// For infinite background only.
 		if (isLooping) {
 			// Get all the children of the layer with a renderer.
 			backgroundPart = new List<Transform>();
