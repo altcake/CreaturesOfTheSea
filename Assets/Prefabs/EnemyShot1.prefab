@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  isEnemyShot: 0
+  isEnemyShot: 1
 --- !u!114 &11446056
 MonoBehaviour:
   m_ObjectHideFlags: 1
