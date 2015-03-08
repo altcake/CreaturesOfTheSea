@@ -16,7 +16,7 @@ public class GameOverScript : MonoBehaviour {
 			"Retry!"
 		)) {
 			// Reload the level.
-			Application.LoadLevel("Shooter");
+			Application.LoadLevel("Level_02");
 		}
 
 		if(GUI.Button (

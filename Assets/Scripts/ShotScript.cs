@@ -7,12 +7,11 @@ public class ShotScript : MonoBehaviour
 
 	public bool isEnemyShot = false;
 	// Use this for initialization
-	void Start ()
-	{
-		Destroy (gameObject, 20);
+	void Start() {
+		Destroy(gameObject, 2);
 	}
 	
-	// Update is called once per frame
+	// Update is called once per frame.
 	void Update () {
 	
 	}

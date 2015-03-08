@@ -24,9 +24,10 @@ public class HealthScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D otherCollider) {
 		// Is this a shot?
-		ShotScript shot = otherCollider.gameObject.GetComponent<ShotScript> ();
+		ShotScript shot = otherCollider.gameObject.GetComponent<ShotScript>();
 
-		if (shot != null) {
+        // Only take damage if the gameObject is in the camera view.
+		if (renderer.IsVisibleFrom(Camera.main) && shot != null) {
 			// Avoid friendly fire.
 			if (shot.isEnemyShot != isEnemy) {
 				Damage(shot.damage);
