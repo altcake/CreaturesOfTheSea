@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: c71f78c9bbf4fa24585e08569ee0f491
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Sea_Otter_Illurstations_1-4th_Transform-01_0
+    21300002: Sea_Otter_Illurstations_1-4th_Transform-01_1
+    21300004: Sea_Otter_Illurstations_1-4th_Transform-01_2
+    21300006: Sea_Otter_Illurstations_1-4th_Transform-01_3
+    21300008: Sea_Otter_Illurstations_1-4th_Transform-01_4
+    21300010: Sea_Otter_Illurstations_1-4th_Transform-01_5
+    21300012: Sea_Otter_Illurstations_1-4th_Transform-01_6
+    21300014: Sea_Otter_Illurstations_1-4th_Transform-01_7
+    21300016: Sea_Otter_Illurstations_1-4th_Transform-01_8
+    21300018: Sea_Otter_Illurstations_1-4th_Transform-01_9
+    21300020: Sea_Otter_Illurstations_1-4th_Transform-01_10
+    21300022: Sea_Otter_Illurstations_1-4th_Transform-01_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,7 +39,7 @@ TextureImporter:
     filterMode: -1
     aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -42,6 +54,126 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_0
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 4799
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_1
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 4799
+        width: 10
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_2
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 4794
+        width: 80
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_3
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 4794
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_4
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 4794
+        width: 74
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_5
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 4794
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_6
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 4794
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_7
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 4794
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4111
+        width: 1338
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3105
+        width: 1368
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1995
+        width: 1274
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sea_Otter_Illurstations_1-4th_Transform-01_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 750
+        width: 1174
+        height: 896
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
