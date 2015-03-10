@@ -68,28 +68,30 @@ public class PlayerScript : MonoBehaviour
 	{
 		bool damagePlayer = false;
 
-		EnemyScript enemy = collision.gameObject.GetComponent<EnemyScript> ();
-		if (enemy != null)
-		{
-			HealthScript enemyHealth = enemy.GetComponent<HealthScript> ();
-			if (enemyHealth != null) {
-				enemyHealth.Damage (enemyHealth.hp);
-			}
-			damagePlayer = true;
-		}
-
-		if (damagePlayer)
-		{
-			HealthScript playerHealth = this.GetComponent<HealthScript> ();
-			if (playerHealth != null) {
-				playerHealth.Damage (1);
-			}
-		}
-
-        TriggerEndLevelScript_02 triggerEndLevel_02 = collision.gameObject.GetComponent<TriggerEndLevelScript_02>();
-        if (triggerEndLevel_02 != null)
+        TriggerEndLevelScript_01 triggerEndLevel_01 = collision.gameObject.GetComponent<TriggerEndLevelScript_01>();
+        if (triggerEndLevel_01 != null)
         {
-            transform.parent.gameObject.AddComponent<EndLevelScript_02>();
+            transform.parent.gameObject.AddComponent<EndLevelScript_01>();
+        }
+
+        EnemyScript enemy = collision.gameObject.GetComponent<EnemyScript>();
+        if (enemy != null)
+        {
+            HealthScript enemyHealth = enemy.GetComponent<HealthScript>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.Damage(enemyHealth.hp);
+            }
+            damagePlayer = true;
+        }
+
+        if (damagePlayer)
+        {
+            HealthScript playerHealth = this.GetComponent<HealthScript>();
+            if (playerHealth != null)
+            {
+                playerHealth.Damage(1);
+            }
         }
 	}
 
@@ -97,6 +99,11 @@ public class PlayerScript : MonoBehaviour
 		// Game Over
 		// Add the script to the parent because the current game
 		// object is likely going to be destroyed immediately.
-		transform.parent.gameObject.AddComponent<GameOverScript> ();
+		transform.parent.gameObject.AddComponent<GameOverScript>();
 	}
+
+    public void showNextLevel()
+    {
+        transform.parent.gameObject.AddComponent<EndLevelScript_01>();
+    }
 }
