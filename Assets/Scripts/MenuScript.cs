@@ -26,7 +26,7 @@ public class MenuScript : MonoBehaviour {
 				buttonHeight),
 			"START")) {
 			// On click, load the first level.
-			Application.LoadLevel ("Level_02"); // "Shooter" is the scene name.
+			Application.LoadLevel ("Level_01"); // "Shooter" is the scene name.
 		}
 	}
 }
