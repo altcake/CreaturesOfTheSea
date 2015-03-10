@@ -14,8 +14,11 @@ public class EndLevel : MonoBehaviour
 	
 	}
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        Application.LoadLevel(nextLevel);
+        if(collision.gameObject.tag == "Player")
+        {
+            Application.LoadLevel(nextLevel);
+        }
     }
 }

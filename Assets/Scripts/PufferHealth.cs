@@ -25,6 +25,7 @@ public class PufferHealth : MonoBehaviour {
 			
 			// Dead!
 			Destroy(gameObject);
+            Application.LoadLevel("Menu");
 		}
 	}
 	
