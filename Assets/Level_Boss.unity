@@ -592,6 +592,10 @@ Prefab:
       propertyPath: hp
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6137764, guid: 441fdc0d3994f1542a37369ad146e729, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11437766, guid: 441fdc0d3994f1542a37369ad146e729, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 441fdc0d3994f1542a37369ad146e729, type: 2}
