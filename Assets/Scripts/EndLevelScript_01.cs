@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EndLevelScript_02 : MonoBehaviour
+public class EndLevelScript_01 : MonoBehaviour
 {
     void OnGUI()
     {
@@ -15,11 +15,11 @@ public class EndLevelScript_02 : MonoBehaviour
                 buttonWidth,
                 buttonHeight
             ),
-            "Retry!"
+            "Onwards to Level 2!"
         ))
         {
             // Reload the level.
-            Application.LoadLevel("Level_Boss");
+            Application.LoadLevel("Level_02");
         }
 
         if (GUI.Button(
