@@ -85,6 +85,12 @@ public class PlayerScript : MonoBehaviour
 				playerHealth.Damage (1);
 			}
 		}
+
+        TriggerEndLevelScript_02 triggerEndLevel_02 = collision.gameObject.GetComponent<TriggerEndLevelScript_02>();
+        if (triggerEndLevel_02 != null)
+        {
+            transform.parent.gameObject.AddComponent<EndLevelScript_02>();
+        }
 	}
 
 	void OnDestroy() {
