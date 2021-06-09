@@ -17,7 +17,7 @@ public class PufferScript : MonoBehaviour
     void Start()
     {
         hasSpawn = false;
-        collider2D.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
         moveScript.enabled = false;
 
         foreach (PufferWeaponScript weapon in weapons)
@@ -39,7 +39,7 @@ public class PufferScript : MonoBehaviour
             foreach (PufferWeaponScript weapon in weapons)
             {
                 // Auto-Fire
-                if (weapon != null && weapon.CanAttack && renderer.IsVisibleFrom(Camera.main))
+                if (weapon != null && weapon.CanAttack && GetComponent<Renderer>().IsVisibleFrom(Camera.main))
                 {
                     weapon.Attack(true);
                     SoundEffectsHelper.Instance.MakeEnemyShotSound();
@@ -57,7 +57,7 @@ public class PufferScript : MonoBehaviour
     private void Spawn()
     {
         hasSpawn = true;
-        collider2D.enabled = true;
+        GetComponent<Collider2D>().enabled = true;
         moveScript.enabled = true;
         foreach (PufferWeaponScript weapon in weapons)
         {

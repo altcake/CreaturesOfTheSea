@@ -5,7 +5,7 @@ public class TriggerEndLevelScript_02 : MonoBehaviour
 {
     void Start()
     {
-        collider2D.enabled = true;
+        GetComponent<Collider2D>().enabled = true;
     }
 
     void Update()

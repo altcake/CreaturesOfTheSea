@@ -14,7 +14,7 @@ public class EnemyScript : MonoBehaviour {
 
 	void Start() {
 		hasSpawn = false;
-		collider2D.enabled = false;
+		GetComponent<Collider2D>().enabled = false;
 		moveScript.enabled = false;
 
 		foreach(WeaponScript weapon in weapons) {
@@ -31,7 +31,7 @@ public class EnemyScript : MonoBehaviour {
         else {
 			foreach (WeaponScript weapon in weapons) {
 				// Auto-Fire
-				if (weapon != null && weapon.CanAttack && renderer.IsVisibleFrom(Camera.main)) {
+				if (weapon != null && weapon.CanAttack && GetComponent<Renderer>().IsVisibleFrom(Camera.main)) {
 					weapon.Attack (true);
 					SoundEffectsHelper.Instance.MakeEnemyShotSound();
 				}
@@ -46,7 +46,7 @@ public class EnemyScript : MonoBehaviour {
 	}
 	private void Spawn() {
 		hasSpawn = true;
-		collider2D.enabled = true;
+		GetComponent<Collider2D>().enabled = true;
 		moveScript.enabled = true;
 		foreach (WeaponScript weapon in weapons) {
 			weapon.enabled = true;
