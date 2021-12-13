@@ -117,6 +117,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -832,6 +833,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Fish Enemies_5: 21300010
+      Fish Enemies_18: 21300036
+      Fish Enemies_29: 21300058
+      Fish Enemies_22: 21300044
+      Fish Enemies_26: 21300052
+      Fish Enemies_11: 21300022
+      Fish Enemies_16: 21300032
+      Fish Enemies_28: 21300056
+      Fish Enemies_4: 21300008
+      Fish Enemies_3: 21300006
+      Fish Enemies_27: 21300054
+      Fish Enemies_25: 21300050
+      Fish Enemies_23: 21300046
+      Fish Enemies_19: 21300038
+      Fish Enemies_17: 21300034
+      Fish Enemies_8: 21300016
+      Fish Enemies_13: 21300026
+      Fish Enemies_24: 21300048
+      Fish Enemies_15: 21300030
+      Fish Enemies_1: 21300002
+      Fish Enemies_14: 21300028
+      Fish Enemies_6: 21300012
+      Fish Enemies_12: 21300024
+      Fish Enemies_30: 21300060
+      Fish Enemies_0: 21300000
+      Fish Enemies_9: 21300018
+      Fish Enemies_10: 21300020
+      Fish Enemies_7: 21300014
+      Fish Enemies_21: 21300042
+      Fish Enemies_20: 21300040
+      Fish Enemies_2: 21300004
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

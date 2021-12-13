@@ -129,6 +129,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -928,6 +929,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Sea Otter Illustrations _ Align_17: 21300034
+      Sea Otter Illustrations _ Align_27: 21300054
+      Sea Otter Illustrations _ Align_9: 21300018
+      Sea Otter Illustrations _ Align_1: 21300002
+      Sea Otter Illustrations _ Align_7: 21300014
+      Sea Otter Illustrations _ Align_34: 21300068
+      Sea Otter Illustrations _ Align_29: 21300058
+      Sea Otter Illustrations _ Align_28: 21300056
+      Sea Otter Illustrations _ Align_8: 21300016
+      Sea Otter Illustrations _ Align_2: 21300004
+      Sea Otter Illustrations _ Align_14: 21300028
+      Sea Otter Illustrations _ Align_16: 21300032
+      Sea Otter Illustrations _ Align_20: 21300040
+      Sea Otter Illustrations _ Align_12: 21300024
+      Sea Otter Illustrations _ Align_25: 21300050
+      Sea Otter Illustrations _ Align_15: 21300030
+      Sea Otter Illustrations _ Align_21: 21300042
+      Sea Otter Illustrations _ Align_33: 21300066
+      Sea Otter Illustrations _ Align_3: 21300006
+      Sea Otter Illustrations _ Align_24: 21300048
+      Sea Otter Illustrations _ Align_4: 21300008
+      Sea Otter Illustrations _ Align_13: 21300026
+      Sea Otter Illustrations _ Align_26: 21300052
+      Sea Otter Illustrations _ Align_32: 21300064
+      Sea Otter Illustrations _ Align_30: 21300060
+      Sea Otter Illustrations _ Align_5: 21300010
+      Sea Otter Illustrations _ Align_6: 21300012
+      Sea Otter Illustrations _ Align_0: 21300000
+      Sea Otter Illustrations _ Align_31: 21300062
+      Sea Otter Illustrations _ Align_23: 21300046
+      Sea Otter Illustrations _ Align_18: 21300036
+      Sea Otter Illustrations _ Align_19: 21300038
+      Sea Otter Illustrations _ Align_11: 21300022
+      Sea Otter Illustrations _ Align_22: 21300044
+      Sea Otter Illustrations _ Align_10: 21300020
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -304,6 +305,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Sea_Otter_Illurstations_16th-18th_Trans-01_8: 21300016
+      Sea_Otter_Illurstations_16th-18th_Trans-01_7: 21300014
+      Sea_Otter_Illurstations_16th-18th_Trans-01_6: 21300012
+      Sea_Otter_Illurstations_16th-18th_Trans-01_1: 21300002
+      Sea_Otter_Illurstations_16th-18th_Trans-01_3: 21300006
+      Sea_Otter_Illurstations_16th-18th_Trans-01_2: 21300004
+      Sea_Otter_Illurstations_16th-18th_Trans-01_4: 21300008
+      Sea_Otter_Illurstations_16th-18th_Trans-01_0: 21300000
+      Sea_Otter_Illurstations_16th-18th_Trans-01_5: 21300010
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
